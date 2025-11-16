@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W           &kp E           &kp R                   &kp T                                                            &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A           &kp S           &kp D           &kp F                   &kp G           &kp TAB                        &kp LEFT_CONTROL  &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z           &kp X           &kp C           &kp V                   &kp B           &mkp MB1                       &mkp MB2          &kp N        &kp M  &kp COMMA  &kp DOT  &kp COLON
-&kp LANGUAGE_2  &kp LANGUAGE_1  &kp LEFT_SHIFT  &lt_to_layer_0 6 SPACE  &lt 2 LEFT_WIN  &lt_to_layer_0 3 LEFT_ALT      &kp BACKSPACE     &lt 1 ENTER                             &kp MINUS
+&kp Q           &kp W           &kp E           &kp R     &kp T                                                       &kp Y                   &kp U  &lt 5 I    &kp O    &kp P
+&kp A           &kp S           &kp D           &kp F     &kp G                   &kp TAB           &kp LEFT_ALT      &kp H                   &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z           &kp X           &kp C           &kp V     &kp B                   &kp LEFT_GUI      &kp LEFT_CONTROL  &kp N                   &kp M  &kp COMMA  &kp DOT  &kp COLON
+&kp LANGUAGE_2  &kp LANGUAGE_1  &kp LEFT_SHIFT  &mkp MB1  &lt_to_layer_0 1 SPACE  &mkp MB2          &kp BACKSPACE     &lt_to_layer_0 2 ENTER                             &kp MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&trans  &kp ESCAPE      &kp UP_ARROW    &trans           &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&trans  &kp LEFT_ARROW  &trans          &kp RIGHT_ARROW  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&trans  &trans          &kp DOWN_ARROW  &trans           &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans  &trans          &trans          &trans           &trans  &trans      &trans   &trans                          &kp F12
             >;
         };
 
